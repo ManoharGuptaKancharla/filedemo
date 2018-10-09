@@ -1,0 +1,7 @@
+applications:
+- name: filedemo
+  memory: 1024M
+  buildpack : java_buildpack
+  instances: 1
+  host: filedemo
+  path: /target/filedemo-0.0.1-SNAPSHOT.war
